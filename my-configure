@@ -1,0 +1,6 @@
+#!/bin/sh
+CFLAGS='-Wall -g -O2' ./configure\
+	--disable-schemas-install\
+	--prefix=/opt/mate\
+	--sysconfdir=/etc\
+	--libdir=/opt/mate/lib

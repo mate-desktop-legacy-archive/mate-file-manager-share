@@ -1,0 +1,194 @@
+# Slovak translation for caja-share.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-share package.
+# Marián Bača <majoobaca@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: caja-share\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=caja-share&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-07-08 12:05+0000\n"
+"PO-Revision-Date: 2010-11-24 00:07+0100\n"
+"Last-Translator: Marián Bača <majoobaca@gmail.com>\n"
+"Language-Team: Slovak <mate-sk-list@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: ../src/caja-share.c:123
+#, c-format
+msgid ""
+"Caja needs to add some permissions to your folder \"%s\" in order to "
+"share it"
+msgstr ""
+"Caja potrebuje pridať nejaké oprávnenia pre váš priečinok \"%s\", aby sa "
+"dal zdieľať"
+
+#: ../src/caja-share.c:131
+#, c-format
+msgid ""
+"The folder \"%s\" needs the following extra permissions for sharing to "
+"work:\n"
+"%s%s%sDo you want Caja to add these permissions to the folder "
+"automatically?"
+msgstr ""
+"Priečinok \"%s\" potrebuje nasledujúce extra oprávnenia, aby by zdieľanie "
+"fungovalo:\n"
+"%s%s%sChcete, aby Caja pridal tieto oprávnenia k priečinku automaticky?"
+
+#: ../src/caja-share.c:135
+msgid "  - read permission by others\n"
+msgstr "  - oprávnenie na čítanie pre ostatných\n"
+
+#: ../src/caja-share.c:136
+msgid "  - write permission by others\n"
+msgstr "  - oprávnenie na zapisovanie pre ostatných\n"
+
+#: ../src/caja-share.c:137
+msgid "  - execute permission by others\n"
+msgstr "  oprávnenie na spúšťanie pre ostatných\n"
+
+#: ../src/caja-share.c:141
+msgid "Add the permissions automatically"
+msgstr "Pridať oprávnenia automaticky"
+
+#: ../src/caja-share.c:167
+#, c-format
+msgid "Could not change the permissions of folder \"%s\""
+msgstr "Nepodarilo sa zmeniť oprávnenia pre priečinok \"%s\""
+
+#: ../src/caja-share.c:446
+msgid "Share name is too long"
+msgstr "Názov zdieľania je príliš dlhý"
+
+#: ../src/caja-share.c:480
+msgid "The share name cannot be empty"
+msgstr "Názov zdieľania nemôže byť prázdny"
+
+#: ../src/caja-share.c:493
+#, c-format
+msgid "Error while getting share information: %s"
+msgstr "Chyba pri získavaní informácií o zdieľaní: %s"
+
+#: ../src/caja-share.c:503
+msgid "Another share has the same name"
+msgstr "Iné zdieľanie má taký istý názov"
+
+#: ../src/caja-share.c:550 ../src/caja-share.c:786
+msgid "Modify _Share"
+msgstr "_Upraviť zdieľanie"
+
+#: ../src/caja-share.c:550 ../src/caja-share.c:788
+msgid "Create _Share"
+msgstr "_Vytvoriť zdieľanie"
+
+#: ../src/caja-share.c:678
+msgid "There was an error while getting the sharing information"
+msgstr "Nastala chyba pri získavaní informácií o zdieľaní"
+
+#: ../src/caja-share.c:1050
+msgid "Share"
+msgstr "Zdieľanie"
+
+#: ../src/caja-share.c:1110
+msgid "Folder Sharing"
+msgstr "Zdieľanie priečinka"
+
+#: ../src/caja-share.c:1151
+msgid "Sharing Options"
+msgstr "Voľby zdieľania"
+
+#: ../src/caja-share.c:1152
+msgid "Share this Folder"
+msgstr "Zdieľať tento priečinok"
+
+#: ../src/shares.c:125
+#, c-format
+msgid "%s %s %s returned with signal %d"
+msgstr "%s %s %s sa vrátil so signálom %d"
+
+#: ../src/shares.c:134
+#, c-format
+msgid "%s %s %s failed for an unknown reason"
+msgstr "%s %s %s zlyhal z neznámeho dôvodu"
+
+#: ../src/shares.c:154
+#, c-format
+msgid "'net usershare' returned error %d: %s"
+msgstr "Príkaz 'net usershare' vrátil chybu %d: %s"
+
+#: ../src/shares.c:156
+#, c-format
+msgid "'net usershare' returned error %d"
+msgstr "Príkaz 'net usershare' vrátil chybu %d"
+
+#: ../src/shares.c:187
+#, c-format
+msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
+msgstr "Výstup príkazu 'net usershare' nie je v platnom kódovaní UTF-8"
+
+#: ../src/shares.c:442 ../src/shares.c:616
+#, c-format
+msgid "Failed"
+msgstr "Zlyhalo"
+
+#: ../src/shares.c:550
+#, c-format
+msgid "Samba's testparm returned with signal %d"
+msgstr "Samba príkaz testparm sa vrátil so signálom %d"
+
+#: ../src/shares.c:556
+#, c-format
+msgid "Samba's testparm failed for an unknown reason"
+msgstr "Samba príkaz testparm zlyhal z neznámeho dôvodu"
+
+#: ../src/shares.c:571
+#, c-format
+msgid "Samba's testparm returned error %d: %s"
+msgstr "Samba príkaz testparm vrátil chybu %d: %s"
+
+#: ../src/shares.c:573
+#, c-format
+msgid "Samba's testparm returned error %d"
+msgstr "Samba príkaz testparm vrátil chybu %d"
+
+#: ../src/shares.c:684
+#, c-format
+msgid "Cannot remove the share for path %s: that path is not shared"
+msgstr "Nie je možné odstrániť zdieľanie pre cestu %s: cesta nie je zdieľaná"
+
+#: ../src/shares.c:730
+#, c-format
+msgid ""
+"Cannot change the path of an existing share; please remove the old share "
+"first and add a new one"
+msgstr ""
+"Nie je možné zmeniť cestu existujúceho zdieľania: odstráňte, prosím, najskôr "
+"staré zdieľanie a potom pridajte nové"
+
+#: ../interfaces/share-dialog.ui.h:1
+msgid "<big><b>Folder Sharing</b></big>"
+msgstr "<big><b>Zdieľanie priečinka</b></big>"
+
+#: ../interfaces/share-dialog.ui.h:2
+msgid "Co_mment:"
+msgstr "_Komentár:"
+
+#: ../interfaces/share-dialog.ui.h:3
+msgid "Share _name:"
+msgstr "_Názov zdieľania:"
+
+#: ../interfaces/share-dialog.ui.h:4
+msgid "Share this _folder"
+msgstr "_Zdieľať tento priečinok"
+
+#: ../interfaces/share-dialog.ui.h:5
+msgid "_Allow others to create and delete files in this folder"
+msgstr "_Povoliť ostatným vytvárať a odstraňovať súbory v tomto priečinku"
+
+#: ../interfaces/share-dialog.ui.h:6
+msgid "_Guest access (for people without a user account)"
+msgstr "_Hosťovský prístup (pre ľudí bez používateľského účtu)"

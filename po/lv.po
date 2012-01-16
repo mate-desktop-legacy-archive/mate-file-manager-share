@@ -1,0 +1,195 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug."
+"cgi?product=caja-share&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-07-26 07:05+0000\n"
+"PO-Revision-Date: 2011-09-29 13:35+0300\n"
+"Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lv\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#: ../src/caja-share.c:123
+#, c-format
+msgid ""
+"Caja needs to add some permissions to your folder \"%s\" in order to "
+"share it"
+msgstr ""
+"Caja nepieciešams pievienot dažas atļaujas piekļūšanai jūsu mapei \"%s\", "
+"lai ar to dalīties"
+
+#: ../src/caja-share.c:131
+#, c-format
+msgid ""
+"The folder \"%s\" needs the following extra permissions for sharing to "
+"work:\n"
+"%s%s%sDo you want Caja to add these permissions to the folder "
+"automatically?"
+msgstr ""
+"Mapei \"%s\" vajag sekojošos papildu moduļus, lai varētu koplietot:\n"
+"%s%s%sVai vēlaties, lai Caja automātiski piešķir mapei šīs papildu "
+"tiesības?"
+
+#: ../src/caja-share.c:135
+msgid "  - read permission by others\n"
+msgstr " - citu pieeja lasīšanai\n"
+
+#: ../src/caja-share.c:136
+msgid "  - write permission by others\n"
+msgstr " - citu pieeja rakstīšanai\n"
+
+#: ../src/caja-share.c:137
+msgid "  - execute permission by others\n"
+msgstr " - atļauja citiem palaist\n"
+
+#: ../src/caja-share.c:141
+msgid "Add the permissions automatically"
+msgstr "Automātiski pievienot atļaujas"
+
+#: ../src/caja-share.c:167
+#, c-format
+msgid "Could not change the permissions of folder \"%s\""
+msgstr "Nebija iespējams mainīt mapes \"%s\" atļaujas"
+
+#: ../src/caja-share.c:446
+msgid "Share name is too long"
+msgstr "Koplietotnes nosaukums pārāk garš"
+
+#: ../src/caja-share.c:480
+msgid "The share name cannot be empty"
+msgstr "Koplietotnes vārds nevar būt tukšs"
+
+#: ../src/caja-share.c:493
+#, c-format
+msgid "Error while getting share information: %s"
+msgstr "Kļuda saņemot koplietotnes informāciju: %s"
+
+#: ../src/caja-share.c:503
+msgid "Another share has the same name"
+msgstr "Citai koplietotnej jau ir tāds nosaukums"
+
+#: ../src/caja-share.c:550 ../src/caja-share.c:786
+msgid "Modify _Share"
+msgstr "Pārveidot _koplietotni"
+
+#: ../src/caja-share.c:550 ../src/caja-share.c:788
+msgid "Create _Share"
+msgstr "Izveidot _koplietotni"
+
+#: ../src/caja-share.c:678
+msgid "There was an error while getting the sharing information"
+msgstr "Notikusi kļuda iegūstot informāciju par koplietotni"
+
+#: ../src/caja-share.c:1050
+msgid "Share"
+msgstr "Koplietot"
+
+#: ../src/caja-share.c:1110
+msgid "Folder Sharing"
+msgstr "Mapju koplietošana"
+
+#: ../src/caja-share.c:1151
+msgid "Sharing Options"
+msgstr "Koplietošanas iestatījumi"
+
+#: ../src/caja-share.c:1152
+msgid "Share this Folder"
+msgstr "Koplietot šo mapi"
+
+#: ../src/shares.c:125
+#, c-format
+msgid "%s %s %s returned with signal %d"
+msgstr "%s %s %s atgrieza signālu %d"
+
+#: ../src/shares.c:134
+#, c-format
+msgid "%s %s %s failed for an unknown reason"
+msgstr "%s %s %s neizdevās nezināmu iemeslu dēļ"
+
+#: ../src/shares.c:154
+#, c-format
+msgid "'net usershare' returned error %d: %s"
+msgstr "'net usershare' atgrieza kļūdu %d: %s"
+
+#: ../src/shares.c:156
+#, c-format
+msgid "'net usershare' returned error %d"
+msgstr "'net usershare' atgrieza kļūdu %d"
+
+#: ../src/shares.c:187
+#, c-format
+msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
+msgstr "'net usershare' izvads nesatur derīgu UTF-8 kodējumu"
+
+#: ../src/shares.c:442 ../src/shares.c:616
+#, c-format
+msgid "Failed"
+msgstr "Neizdevās"
+
+#: ../src/shares.c:550
+#, c-format
+msgid "Samba's testparm returned with signal %d"
+msgstr "Samba testparm atgrieza signālu %d"
+
+#: ../src/shares.c:556
+#, c-format
+msgid "Samba's testparm failed for an unknown reason"
+msgstr "Samba testparm neizdevās nezināmu iemeslu dēļ"
+
+#: ../src/shares.c:571
+#, c-format
+msgid "Samba's testparm returned error %d: %s"
+msgstr "Samba testparm atgrieza kļūdu %d: %s "
+
+#: ../src/shares.c:573
+#, c-format
+msgid "Samba's testparm returned error %d"
+msgstr "Samba testparm atgrieza kļūdu %d:"
+
+#: ../src/shares.c:684
+#, c-format
+msgid "Cannot remove the share for path %s: that path is not shared"
+msgstr "Nevarēja noņemt koplietošanu ceļam %s: šis ceļš netiek koplietots"
+
+#: ../src/shares.c:730
+#, c-format
+msgid ""
+"Cannot change the path of an existing share; please remove the old share "
+"first and add a new one"
+msgstr ""
+"Nevar mainīt esoša koplietojuma ceļu; vispirms izņemiet veco koplietojumu "
+"un pievienojiet jaunu"
+
+#: ../interfaces/share-dialog.ui.h:1
+msgid "<big><b>Folder Sharing</b></big>"
+msgstr "<big><b>Mapju koplietošana</b></big>"
+
+#: ../interfaces/share-dialog.ui.h:2
+msgid "Co_mment:"
+msgstr "Ko_mentārs:"
+
+#: ../interfaces/share-dialog.ui.h:3
+msgid "Share _name:"
+msgstr "Koplietojuma _nosaukums:"
+
+#: ../interfaces/share-dialog.ui.h:4
+msgid "Share this _folder"
+msgstr "Koplietot šo _mapi"
+
+#: ../interfaces/share-dialog.ui.h:5
+msgid "_Allow others to create and delete files in this folder"
+msgstr "Ļ_aut citiem izveidot un dzēst failus šajā mapē"
+
+#: ../interfaces/share-dialog.ui.h:6
+msgid "_Guest access (for people without a user account)"
+msgstr "_Viesa pieeja (cilvēkiem bez lietotāja konta)"

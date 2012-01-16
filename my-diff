@@ -1,0 +1,10 @@
+#!/bin/sh
+
+NEWFILES="src/shares.c src/shares.h"
+
+cvs diff -up -r federico -r HEAD .
+
+for i in $NEWFILES
+do
+  diff -u /dev/null $i
+done

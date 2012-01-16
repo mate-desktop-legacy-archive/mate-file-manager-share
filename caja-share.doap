@@ -1,0 +1,66 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:mate="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <!-- Project Info -->
+  <shortname>caja-share</shortname>
+  <created>2006-01-09</created>
+
+  <name xml:lang="en">Caja Share</name>
+  <shortdesc xml:lang="en">
+    Caja extension to share folder using Samba
+  </shortdesc>
+
+  <description xml:lang="en">
+    Caja Share allows you to quickly share a folder from the MATE Caja
+    file manager without requiring root access.
+  </description>
+
+  <homepage rdf:resource="http://gentoo.ovibes.net/caja-share/" />
+  <download-page rdf:resource="" />
+  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=caja-share" />
+  <license rdf:resource="http://usefulinc.com/doap/licenses/gpl" />
+
+  <!-- Current Releases -->
+  <release>
+    <Version>
+      <name>0.7.3 Release</name>
+      <branch>master</branch>
+      <created>2011-07-04</created>
+      <revision>0.7.3</revision>
+      <file-release rdf:resource="http://ftp.gnome.org/pub/MATE/sources/caja-share/caja-share-0.7.4.tar.bz2" />
+    </Version>
+  </release>
+
+  <!-- Version Control -->
+  <repository>
+    <GitRepository>
+      <browse rdf:resource="http://git.gnome.org/cgit/caja-share" />
+      <location rdf:resource="git://git.gnome.org/caja-share" />
+    </GitRepository>
+  </repository>
+
+  <!-- Maintainers -->
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Sebastien Estienne</foaf:name>
+      <foaf:mbox rdf:resource="mailto:sebastien.estienne@gmail.com" />
+      <mate:userid>sebest</mate:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person><foaf:name>Federico Mena Quintero</foaf:name>
+    <foaf:mbox rdf:resource="mailto:federico@ximian.com" />
+    <mate:userid>federico</mate:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Chow Loong Jin</foaf:name>
+      <foaf:mbox rdf:resource="mailto:hyperair@ubuntu.com" />
+      <mate:userid>ljchow</mate:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>

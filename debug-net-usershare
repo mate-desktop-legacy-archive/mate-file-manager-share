@@ -1,0 +1,79 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import ConfigParser
+
+SHAREFILE="/home/federico/.debug-shares"
+
+def list_shares ():
+    os.system ("cat %s" % (SHAREFILE))
+
+def add_share (sharename, path, comment, acl, want_echo):
+    sharename = sharename.lower()
+
+    parser = ConfigParser.ConfigParser ()
+    if len (parser.read (SHAREFILE)) == 0:
+        sys.exit (1)
+
+    if parser.has_section (sharename):
+        sys.exit (1)
+
+    parser.add_section (sharename)
+    parser.set (sharename, "path", path)
+    parser.set (sharename, "comment", comment)
+    parser.set (sharename, "usershare_acl", acl)
+
+    file = open (SHAREFILE, "w")
+    parser.write (file)
+    file.close ()
+
+    if want_echo:
+	print "[%s]" % sharename
+        print "path=%s" % path
+	print "comment=%s" % comment
+	print "usershare_acl=%s" % acl
+    
+def delete_share (sharename):
+    sharename = sharename.lower()
+
+    parser = ConfigParser.ConfigParser ()
+    if len (parser.read (SHAREFILE)) == 0:
+        sys.exit (1)
+
+    if not parser.has_section (sharename):
+        sys.exit (1)
+
+    parser.remove_section (sharename)
+
+    file = open (SHAREFILE, "w")
+    parser.write (file)
+    file.close ()
+
+f = open ("/home/federico/kk", "w")
+for i in range (0, len (sys.argv)):
+    f.writelines ('arg "%s"\n' % sys.argv[i])
+f.close ()
+    
+command = sys.argv[2] # argv[1] is "usershare"
+
+if command == "info":
+    list_shares ()
+elif command == "add":
+    if sys.argv[3] == "-l":
+	i = 4;
+	want_echo = True
+    else:
+        i = 3;
+	want_echo = False
+
+    sharename = sys.argv[i]
+    path = sys.argv[i + 1]
+    comment = sys.argv[i + 2]
+    acl = sys.argv[i + 3]
+
+    add_share (sharename, path, comment, acl, want_echo)
+elif command == "delete":
+    delete_share (sys.argv[3])
+else:
+    sys.exit (1)
