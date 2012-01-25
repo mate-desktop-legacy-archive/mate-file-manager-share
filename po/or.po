@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-03-06 05:06+0000\n"
 "PO-Revision-Date: 2009-03-18 19:28+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
 
-#: ../src/caja-share.c:129
+#: ../src/mate-file-manager-share.c:129
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -26,7 +26,7 @@ msgstr ""
 "ସହଭାଗ କରିବା ପାଇଁ Caja ଆପଣଙ୍କର ଫୋଲଡର \"%s\"ରେ କିଛି ଅନୁମତି ଯୋଗ କରିବା "
 "ଆବଶ୍ୟକ କରିଥାଏ"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -38,65 +38,65 @@ msgstr ""
 "%s%s%sଆପଣ ଏହି ଅନୁମତିଗୁଡ଼ିକୁ ସେହି ଫୋଲଡରରେ ସ୍ୱୟଂଚାଳିତ ଭାବରେ Caja "
 "ଯୋଗ କରୁ ବୋଲି ଚାହୁଁଛନ୍ତି କି?"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - read permission by others\n"
 msgstr "  - ଅନ୍ୟମାନଙ୍କ ଦ୍ୱାରା ଅନୁମତି ପଢନ୍ତୁ\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - write permission by others\n"
 msgstr "  - ଅନ୍ୟମାନଙ୍କ ଦ୍ୱାରା ଅନୁମତି ଲେଖନ୍ତୁ\n"
 
-#: ../src/caja-share.c:143
+#: ../src/mate-file-manager-share.c:143
 msgid "  - execute permission by others\n"
 msgstr "  - ଅନ୍ୟମାନଙ୍କ ଦ୍ୱାରା ଅନୁମତି ନିଷ୍ପାଦନ କରନ୍ତୁ\n"
 
-#: ../src/caja-share.c:147
+#: ../src/mate-file-manager-share.c:147
 msgid "Add the permissions automatically"
 msgstr "ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅନୁମତିକୁ ଯୋଗ କରିଥାଏ"
 
-#: ../src/caja-share.c:173
+#: ../src/mate-file-manager-share.c:173
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "ଫୋଲଡର \"%s\" ର ଅନୁମତି ପରିବର୍ତ୍ତନ କରିପାରିବ ନାହିଁ"
 
-#: ../src/caja-share.c:444
+#: ../src/mate-file-manager-share.c:444
 msgid "Share name is too long"
 msgstr "ସହଭାଗୀ ନାମଟି ଅତ୍ୟଧିକ ଲମ୍ୱା"
 
-#: ../src/caja-share.c:478
+#: ../src/mate-file-manager-share.c:478
 msgid "The share name cannot be empty"
 msgstr "ସହଭାଗୀ ନାମଟିକୁ ଖାଲିକରାଯାଇପାରିବ ନାହିଁ"
 
-#: ../src/caja-share.c:491
+#: ../src/mate-file-manager-share.c:491
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "ସହଭାଗୀ ସୂଚନା ପାଇବା ସମୟରେ ତ୍ରୁଟି: %s"
 
-#: ../src/caja-share.c:501
+#: ../src/mate-file-manager-share.c:501
 msgid "Another share has the same name"
 msgstr "ଅନ୍ୟ ଏକ ସହଭାଗରେ ସମାନ ନାମ ଅଛି"
 
-#: ../src/caja-share.c:669
+#: ../src/mate-file-manager-share.c:669
 msgid "There was an error while getting the sharing information"
 msgstr "ସହଭାଗୀ ସୂଚନା ପାଇବା ସମୟରେ ତ୍ରୁଟି"
 
-#: ../src/caja-share.c:769
+#: ../src/mate-file-manager-share.c:769
 msgid "Modify _Share"
 msgstr "ସହଭାଗକୁ ପରିବର୍ତ୍ତନ କରନ୍ତୁ (_S)"
 
-#: ../src/caja-share.c:771
+#: ../src/mate-file-manager-share.c:771
 msgid "Create _Share"
 msgstr "ସହଭାଗ ସୃଷ୍ଟି କରନ୍ତୁ (_S)"
 
-#: ../src/caja-share.c:1029
+#: ../src/mate-file-manager-share.c:1029
 msgid "Share"
 msgstr "ସହଭାଗ କରନ୍ତୁ"
 
-#: ../src/caja-share.c:1129
+#: ../src/mate-file-manager-share.c:1129
 msgid "Sharing Options"
 msgstr "ସହଭାଗ ବିକଳ୍ପଗୁଡ଼ିକ"
 
-#: ../src/caja-share.c:1130
+#: ../src/mate-file-manager-share.c:1130
 msgid "Share this Folder"
 msgstr "ଏହି ଫୋଲଡରକୁ ସହଭାଗ କରନ୍ତୁ"
 

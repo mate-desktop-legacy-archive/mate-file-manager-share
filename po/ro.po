@@ -1,13 +1,13 @@
-# Romanian translation for caja-share
+# Romanian translation for mate-file-manager-share
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the caja-share package.
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
-"product=caja-share&component=general\n"
+"product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-09-19 20:38+0000\n"
 "PO-Revision-Date: 2009-10-11 13:14+0300\n"
 "Last-Translator: Adi Roiban <adi@roiban.ro>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Pentru a partaja dosarul „%s”, Caja trebuie să îi modifice drepturile"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -38,69 +38,69 @@ msgstr ""
 "drepturi:\n"
 "%s%s%sDoriți ca Caja să adauge automat aceste drepturi dosarului?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - citire pentru alți utilizatori\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - scriere pentru alți utilizatori\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - execuție pentru alți utilizatori\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Adăugă drepturile automat"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nu s-au putut modifica drepturile pentru „%s”"
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Numele pentru partajare este prea lung"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Numele pentru partajare nu poate să fie gol"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Eroare la obținerea informației de partajare: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "Există deja un dosar partajat cu aceste nume"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "Modificare _partajare"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "Creare _partajare"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "S-a produs o eroare la obținerea informației despre partajare"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "Partajare"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 msgid "Folder Sharing"
 msgstr "Partajare dosar"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "Opțiuni de partajare"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "Partajați acest dosar"
 

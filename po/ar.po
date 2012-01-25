@@ -1,4 +1,4 @@
-# translation of caja-share.HEAD.po to Arabic
+# translation of mate-file-manager-share.HEAD.po to Arabic
 # Automatically generated, 2007.
 # Djihed Afifi <djihed@gmail.com>, 2007.
 # Khaled Hosny <khaledhosny@eglug.org>, 2008.
@@ -7,7 +7,7 @@
 # This file is distributed under the same license as THIS package.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share.HEAD\n"
+"Project-Id-Version: mate-file-manager-share.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-10-23 22:49+0100\n"
 "PO-Revision-Date: 2008-08-09 11:25+0300\n"
@@ -19,12 +19,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: ../src/caja-share.c:129
+#: ../src/mate-file-manager-share.c:129
 #, c-format
 msgid "Caja needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr "يحتاج نوتلس لإضافة بعض الصلاحيات للمجلد \"%s\" لكي تتم مشاركته"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -33,65 +33,65 @@ msgstr ""
 "المجلد \"%s\" يحتاج إلى الصلاحيات الإضافية الآتية لتتم مشاركته:\n"
 "%s%s%s ، هل تريد من نوتلس إضافة هذه الصلاحيات للمجلد آليا؟"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - read permission by others\n"
 msgstr " - صلاحية القراءة من الآخرين\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - write permission by others\n"
 msgstr " - صلاحية الكتابة من الآخرين\n"
 
-#: ../src/caja-share.c:143
+#: ../src/mate-file-manager-share.c:143
 msgid "  - execute permission by others\n"
 msgstr " - صلاحية التنفيذ من الآخرين\n"
 
-#: ../src/caja-share.c:147
+#: ../src/mate-file-manager-share.c:147
 msgid "Add the permissions automatically"
 msgstr "أضف الصلاحيات آليا"
 
-#: ../src/caja-share.c:173
+#: ../src/mate-file-manager-share.c:173
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "تعذّر تغيير صلاحيات المجلد \"%s\""
 
-#: ../src/caja-share.c:444
+#: ../src/mate-file-manager-share.c:444
 msgid "Share name is too long"
 msgstr "اسم المُشاركة طويل جدا"
 
-#: ../src/caja-share.c:478
+#: ../src/mate-file-manager-share.c:478
 msgid "The share name cannot be empty"
 msgstr "لا يمكن أن يكون اسم المُشاركة فارغا"
 
-#: ../src/caja-share.c:491
+#: ../src/mate-file-manager-share.c:491
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "حدث خطأ أثناء جلب معلومات المشاركة: %s"
 
-#: ../src/caja-share.c:501
+#: ../src/mate-file-manager-share.c:501
 msgid "Another share has the same name"
 msgstr "يوجد مسبقًا مُشاركة بنفس الاسم"
 
-#: ../src/caja-share.c:669
+#: ../src/mate-file-manager-share.c:669
 msgid "There was an error while getting the sharing information"
 msgstr "حدث خطأ أثناء جلب معلومات المشاركة"
 
-#: ../src/caja-share.c:769
+#: ../src/mate-file-manager-share.c:769
 msgid "Modify _Share"
 msgstr "_عدّل المُشاركة"
 
-#: ../src/caja-share.c:771
+#: ../src/mate-file-manager-share.c:771
 msgid "Create _Share"
 msgstr "أنشئ مُشاركة"
 
-#: ../src/caja-share.c:1029
+#: ../src/mate-file-manager-share.c:1029
 msgid "Share"
 msgstr "مُشاركة"
 
-#: ../src/caja-share.c:1129
+#: ../src/mate-file-manager-share.c:1129
 msgid "Sharing Options"
 msgstr "خيارات المُشاركة"
 
-#: ../src/caja-share.c:1130
+#: ../src/mate-file-manager-share.c:1130
 msgid "Share this Folder"
 msgstr "شارك هذا المجلّد"
 

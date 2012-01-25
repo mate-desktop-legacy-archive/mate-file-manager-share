@@ -1,12 +1,12 @@
-# Korean translation of caja-share.
-# Copyright (C) 2008 THE caja-share'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the caja-share package.
+# Korean translation of mate-file-manager-share.
+# Copyright (C) 2008 THE mate-file-manager-share'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Namhyung Kim <namhyung@gmail.com>, 2008.
 # 
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-12-31 03:55+0000\n"
 "PO-Revision-Date: 2008-01-07 17:02+0900\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit"
 
-#: ../src/caja-share.c:129
+#: ../src/mate-file-manager-share.c:129
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "\"%s\" 폴더를 공유하기 위해 몇 가지 접근 권한을 더해야 합니다"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -35,65 +35,65 @@ msgstr ""
 "\"%s\" 폴더를 공유하기 위해서는 다음과 같은 추가적인 접근 권한이 필요합니다:\n"
 "%s%s%s노틸러스가 해당 폴더에 이 접근 권한들을 자동으로 더하도록 하시겠습니까?"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - read permission by others\n"
 msgstr "  - 다른 사람들이 읽을 수 있는 권한\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - write permission by others\n"
 msgstr "  - 다른 사람들이 쓸 수 있는 권한\n"
 
-#: ../src/caja-share.c:143
+#: ../src/mate-file-manager-share.c:143
 msgid "  - execute permission by others\n"
 msgstr "  - 다른 사람들이 실행할 수 있는 권한\n"
 
-#: ../src/caja-share.c:147
+#: ../src/mate-file-manager-share.c:147
 msgid "Add the permissions automatically"
 msgstr "자동으로 접근 권한을 더하기"
 
-#: ../src/caja-share.c:173
+#: ../src/mate-file-manager-share.c:173
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "\"%s\" 폴더의 접근 권한을 바꿀 수 없습니다"
 
-#: ../src/caja-share.c:444
+#: ../src/mate-file-manager-share.c:444
 msgid "Share name is too long"
 msgstr "공유 이름이 너무 깁니다"
 
-#: ../src/caja-share.c:478
+#: ../src/mate-file-manager-share.c:478
 msgid "The share name cannot be empty"
 msgstr "공유 이름을 입력해 주십시오"
 
-#: ../src/caja-share.c:491
+#: ../src/mate-file-manager-share.c:491
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "공유 정보를 가져오는 중 오류: %s"
 
-#: ../src/caja-share.c:501
+#: ../src/mate-file-manager-share.c:501
 msgid "Another share has the same name"
 msgstr "다른 공유 설정에서 해당 이름을 사용 중입니다"
 
-#: ../src/caja-share.c:669
+#: ../src/mate-file-manager-share.c:669
 msgid "There was an error while getting the sharing information"
 msgstr "공유 정보를 가져오는 도중 오류가 발생했습니다"
 
-#: ../src/caja-share.c:769
+#: ../src/mate-file-manager-share.c:769
 msgid "Modify _Share"
 msgstr "공유 정보 수정(_S)"
 
-#: ../src/caja-share.c:771
+#: ../src/mate-file-manager-share.c:771
 msgid "Create _Share"
 msgstr "공유 만들기(_S)"
 
-#: ../src/caja-share.c:1029
+#: ../src/mate-file-manager-share.c:1029
 msgid "Share"
 msgstr "공유"
 
-#: ../src/caja-share.c:1129
+#: ../src/mate-file-manager-share.c:1129
 msgid "Sharing Options"
 msgstr "공유 옵션"
 
-#: ../src/caja-share.c:1130
+#: ../src/mate-file-manager-share.c:1130
 msgid "Share this Folder"
 msgstr "이 폴더 공유"
 

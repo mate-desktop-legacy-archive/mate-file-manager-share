@@ -1,14 +1,14 @@
-# Esperanto translation for caja-share
+# Esperanto translation for mate-file-manager-share
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the caja-share package.
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Michael MORONI < >, 2011.
 # Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
-"product=caja-share&keywords=I18N+L10N&component=general\n"
+"product=mate-file-manager-share&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-04-20 12:28+0000\n"
 "PO-Revision-Date: 2011-04-26 20:29+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Launchpad (build 12915)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -30,7 +30,7 @@ msgstr ""
 "Necesas, ke Naŭtilo aldonas kelkajn permesojn al via dosierujo \"%s\" por "
 "kunhavigi ĝin"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -43,69 +43,69 @@ msgstr ""
 "%s%s%sĈu vi volas, ke Naŭtilo aldonas ĉi tiujn permesojn al la dosierujo "
 "aŭtomate?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - legi permesojn de aliuloj\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - skribi permesojn de aliuloj\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - ruli permesojn de aliuloj\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Aldoni la permesojn aŭtomate"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Ne povis ŝanĝi la permesojn de dosierujo \"%s\""
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Kunhavnomo estas tro longa"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Kunhavnomo ne povas esti malplena"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Eraro dum obtenado de kunhavinformoj: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "Alia kunhavo havas saman nomon"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:791
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:791
 msgid "Modify _Share"
 msgstr "Redakti _kunhavigon"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:793
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:793
 msgid "Create _Share"
 msgstr "Krei _kunhavigon"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "Estis eraro dum obtenado de kunhaviginformoj"
 
-#: ../src/caja-share.c:1055
+#: ../src/mate-file-manager-share.c:1055
 msgid "Share"
 msgstr "Kunhavigi"
 
-#: ../src/caja-share.c:1115
+#: ../src/mate-file-manager-share.c:1115
 msgid "Folder Sharing"
 msgstr "Dosieruja kunhavigo"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Sharing Options"
 msgstr "Kunhavigaj agordoj"
 
-#: ../src/caja-share.c:1157
+#: ../src/mate-file-manager-share.c:1157
 msgid "Share this Folder"
 msgstr "Kunhavigi ĉi tiun dosierujon"
 

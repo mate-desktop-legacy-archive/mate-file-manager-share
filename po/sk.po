@@ -1,13 +1,13 @@
-# Slovak translation for caja-share.
+# Slovak translation for mate-file-manager-share.
 # Copyright (C) 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the caja-share package.
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Marián Bača <majoobaca@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
-"product=caja-share&keywords=I18N+L10N&component=general\n"
+"product=mate-file-manager-share&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-07-08 12:05+0000\n"
 "PO-Revision-Date: 2010-11-24 00:07+0100\n"
 "Last-Translator: Marián Bača <majoobaca@gmail.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: ../src/caja-share.c:123
+#: ../src/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -27,7 +27,7 @@ msgstr ""
 "Caja potrebuje pridať nejaké oprávnenia pre váš priečinok \"%s\", aby sa "
 "dal zdieľať"
 
-#: ../src/caja-share.c:131
+#: ../src/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -39,69 +39,69 @@ msgstr ""
 "fungovalo:\n"
 "%s%s%sChcete, aby Caja pridal tieto oprávnenia k priečinku automaticky?"
 
-#: ../src/caja-share.c:135
+#: ../src/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
 msgstr "  - oprávnenie na čítanie pre ostatných\n"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
 msgstr "  - oprávnenie na zapisovanie pre ostatných\n"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "  oprávnenie na spúšťanie pre ostatných\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Pridať oprávnenia automaticky"
 
-#: ../src/caja-share.c:167
+#: ../src/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nepodarilo sa zmeniť oprávnenia pre priečinok \"%s\""
 
-#: ../src/caja-share.c:446
+#: ../src/mate-file-manager-share.c:446
 msgid "Share name is too long"
 msgstr "Názov zdieľania je príliš dlhý"
 
-#: ../src/caja-share.c:480
+#: ../src/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
 msgstr "Názov zdieľania nemôže byť prázdny"
 
-#: ../src/caja-share.c:493
+#: ../src/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Chyba pri získavaní informácií o zdieľaní: %s"
 
-#: ../src/caja-share.c:503
+#: ../src/mate-file-manager-share.c:503
 msgid "Another share has the same name"
 msgstr "Iné zdieľanie má taký istý názov"
 
-#: ../src/caja-share.c:550 ../src/caja-share.c:786
+#: ../src/mate-file-manager-share.c:550 ../src/mate-file-manager-share.c:786
 msgid "Modify _Share"
 msgstr "_Upraviť zdieľanie"
 
-#: ../src/caja-share.c:550 ../src/caja-share.c:788
+#: ../src/mate-file-manager-share.c:550 ../src/mate-file-manager-share.c:788
 msgid "Create _Share"
 msgstr "_Vytvoriť zdieľanie"
 
-#: ../src/caja-share.c:678
+#: ../src/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Nastala chyba pri získavaní informácií o zdieľaní"
 
-#: ../src/caja-share.c:1050
+#: ../src/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Zdieľanie"
 
-#: ../src/caja-share.c:1110
+#: ../src/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
 msgstr "Zdieľanie priečinka"
 
-#: ../src/caja-share.c:1151
+#: ../src/mate-file-manager-share.c:1151
 msgid "Sharing Options"
 msgstr "Voľby zdieľania"
 
-#: ../src/caja-share.c:1152
+#: ../src/mate-file-manager-share.c:1152
 msgid "Share this Folder"
 msgstr "Zdieľať tento priečinok"
 

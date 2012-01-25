@@ -1,4 +1,4 @@
-/* caja-share -- Caja File Sharing Extension
+/* mate-file-manager-share -- Caja File Sharing Extension
  *
  * Sebastien Estienne <sebastien.estienne@gmail.com>
  *
@@ -31,7 +31,7 @@
 #include <libcaja-extension/caja-menu-provider.h>
 #include <libcaja-extension/caja-property-page-provider.h>
 
-#include "caja-share.h"
+#include "mate-file-manager-share.h"
 
 #include <glib/gi18n-lib.h>
 
@@ -175,7 +175,7 @@ error_when_changing_permissions (GtkWidget *widget, const char *path)
 static char *
 get_key_file_path (void)
 {
-  return g_build_filename (g_get_home_dir (), ".mate2", "caja-share-modified-permissions", NULL);
+  return g_build_filename (g_get_home_dir (), ".mate2", "mate-file-manager-share-modified-permissions", NULL);
 }
 
 static void
@@ -686,7 +686,7 @@ create_property_page (CajaFileInfo *fileinfo)
 
 
   page->xml = gtk_builder_new ();
-  gtk_builder_set_translation_domain (page->xml, "caja-share");
+  gtk_builder_set_translation_domain (page->xml, "mate-file-manager-share");
   g_assert (gtk_builder_add_from_file (page->xml,
               INTERFACES_DIR"/share-dialog.ui", &error));
 
@@ -1254,10 +1254,10 @@ caja_share_register_type (GTypeModule *module)
 void
 caja_module_initialize (GTypeModule  *module)
 {
-  /*g_print ("Initializing caja-share extension\n");*/
+  /*g_print ("Initializing mate-file-manager-share extension\n");*/
 
-  bindtextdomain("caja-share", CAJA_SHARE_LOCALEDIR);
-  bind_textdomain_codeset("caja-share", "UTF-8");
+  bindtextdomain("mate-file-manager-share", CAJA_SHARE_LOCALEDIR);
+  bind_textdomain_codeset("mate-file-manager-share", "UTF-8");
 
   caja_share_register_type (module);
 }
@@ -1266,7 +1266,7 @@ caja_module_initialize (GTypeModule  *module)
 void
 caja_module_shutdown   (void)
 {
-  /*g_print ("Shutting down caja-share extension\n");*/
+  /*g_print ("Shutting down mate-file-manager-share extension\n");*/
   /* FIXME freeing */
 }
 

@@ -1,4 +1,4 @@
-/* caja-share -- Caja File Sharing Extension
+/* mate-file-manager-share -- Caja File Sharing Extension
  *
  * Sebastien Estienne <sebastien.estienne@gmail.com>
  *

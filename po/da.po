@@ -1,11 +1,11 @@
-# Danish translation for caja-share.
+# Danish translation for mate-file-manager-share.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the caja-share package.
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Mads Lundby <lundbymads@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-14 18:07+0200\n"
 "PO-Revision-Date: 2009-10-14 12:35+0100\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -24,7 +24,7 @@ msgstr ""
 "Caja skal tilføje nogle rettigheder til din mappe \"%s\" for at kunne "
 "dele den"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -37,69 +37,69 @@ msgstr ""
 "%s%s%sØnsker du, at Caja automatisk tilføjer disse rettigheder til "
 "mappen?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr " - læserettigheder for andre\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr " - skriverettigheder for andre\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr " - kørselsrettigheder for andre\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Tilføj rettighederne automatisk"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Kunne ikke ændre rettigheder for mappen \"%s\""
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Delenavn er for langt"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Delenavnet må ikke være tomt"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Fejl under indlæsning af information om deling: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "En anden deling har det samme navn"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "Ændr _deling"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "Opret _deling"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "Der opstod en fejl under hentning af delingsinformation"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "Deling"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 msgid "Folder Sharing"
 msgstr "Mappedeling"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "Indstillinger for deling"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "Del denne mappe"
 

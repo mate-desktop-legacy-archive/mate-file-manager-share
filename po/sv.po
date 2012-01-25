@@ -1,11 +1,11 @@
-# Swedish translation of caja-share.
+# Swedish translation of mate-file-manager-share.
 # Copyright (C) 2007, 2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the caja-share package.
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-20 22:08+0200\n"
 "PO-Revision-Date: 2009-08-20 22:09+0100\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid "Caja needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr "Caja behöver lägga till några rättigheter till din mapp \"%s\" för att kunna dela ut den"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -29,71 +29,71 @@ msgstr ""
 "Mappen \"%s\" behöver följande extra rättigheter för att utdelningen ska fungera:\n"
 "%s%s%sVill du att Caja automatiskt ska lägga till dessa rättigheter till mappen?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - läsrättighet för andra\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - skrivrättighet för andra\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - körrättighet för andra\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Lägg till rättigheterna automatiskt"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Kunde inte ändra rättigheterna för mappen \"%s\""
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Utdelningsnamnet är för långt"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Utdelningsnamnet får inte vara blankt"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Fel vid hämtning av utdelningsinformation: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "En annan utdelning har samma namn"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "Ändra _utdelning"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "Skapa _utdelning"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "Det inträffade ett fel med hämtning av utdelningsinformation"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "Utdelning"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 msgid "Folder Sharing"
 msgstr "Mapputdelning"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "Utdelningsalternativ"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "Dela ut den här mappen"
 

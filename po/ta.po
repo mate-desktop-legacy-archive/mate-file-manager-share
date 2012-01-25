@@ -1,13 +1,13 @@
-# translation of caja-share.master.ta.po to Tamil
-# Tamil translation of caja-share.
-# Copyright (C) 2009 caja-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the caja-share package.
+# translation of mate-file-manager-share.master.ta.po to Tamil
+# Tamil translation of mate-file-manager-share.
+# Copyright (C) 2009 mate-file-manager-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-file-manager-share package.
 #
 # I. Felix <ifelix@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share.master.ta\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share.master.ta\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-08-09 23:38+0000\n"
 "PO-Revision-Date: 2009-10-30 12:26+0530\n"
 "Last-Translator: I. Felix <ifelix@redhat.com>\n"
@@ -23,14 +23,14 @@ msgstr ""
 "\n"
 "\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 msgstr "Caja உங்கள் அமைவு \"%s\"ஐ பகிர சில அனுமதிகளை சேர்க்க வேண்டும்"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -41,70 +41,70 @@ msgstr ""
 "அடைவு \"%s\" பின்வரும் அனுமதிகளை கொண்டு பகிர வேலை செய்கிறது:\n"
 "%s%s%sதானாக Caja இந்த அனுமதிகளை சேர்க்க வேண்டுமா?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - மற்றவர்களால் அனுமதியை வாசிக்கவும்\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - மற்றவர்களால் அனுமதியை எழுதவும்\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - மற்றவர்களால் அனுமதியை இயக்கு\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "அனுமதிகளை தானாகவே சேர்க்கவும்"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "\"%s\" கோப்புறை அனுமதிகளை மாற்ற முடியவில்லை"
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "பகிரும் பெயர் மிக நீளமாக உள்ளது"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "பங்கு பெயரை காலியாக்க முடியவில்லை"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "பங்கு தகவலைப் பெறும் போது பிழை: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "மற்றொரு பங்கிற்கும் அதே பெயர்"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "பங்கை மாற்றியமைவும் (_S)"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "பங்கை உருவாக்கு (_S)"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "பகிரும் தகவலை பெறும் போது ஒரு பிழை ஏற்பட்டது"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "பங்கு"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 #| msgid "<big><b>Folder Sharing</b></big>"
 msgid "Folder Sharing"
 msgstr "பகிரப்படும் கோப்புறை"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "பகிர்வு விருப்பங்கள்"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "இந்த கோப்புறையை பகிரவும்"
 

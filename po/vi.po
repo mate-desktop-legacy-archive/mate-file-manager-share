@@ -1,12 +1,12 @@
-# Vietnamese translation for caja-share.
-# Copyright (C) 2011 caja-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the caja-share package.
+# Vietnamese translation for mate-file-manager-share.
+# Copyright (C) 2011 mate-file-manager-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Lê Trường An <xinemdungkhoc1@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2011-02-23 15:14+0000\n"
 "PO-Revision-Date: 2011-04-20 19:25+0700\n"
 "Last-Translator: Lê Trường An <xinemdungkhoc1@gmail.com>\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid "Caja needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr "Caja cần thêm quyền hạn vào thư mục \"%s\" để chia sẻ"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -30,71 +30,71 @@ msgstr ""
 "Thư mục \"%s\" cần các quyền hạn sau đây để có thể được chia sẻ:\n"
 "%s%s%sBạn có muốn Caja thêm các quyền này vào thư mục một cách tự động?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - người khác được phép đọc\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - người khác được phép ghi\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - người khác được phép thực thi\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Tự động thêm quyền hạn"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Không thể thay đổi quyền hạn của thư mục \"%s\""
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Tên chia sẻ quá dài"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Không được để trống tên chia sẻ"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Lỗi khi lấy thông tin chia sẻ: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "Có chia sẻ khác cùng tên"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:791
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:791
 msgid "Modify _Share"
 msgstr "Chỉnh sửa chia _sẻ"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:793
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:793
 msgid "Create _Share"
 msgstr "Tạo chia _sẻ"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "Có lỗi xảy ra khi lấy thông tin chia sẻ"
 
-#: ../src/caja-share.c:1055
+#: ../src/mate-file-manager-share.c:1055
 msgid "Share"
 msgstr "Chia sẻ"
 
-#: ../src/caja-share.c:1115
+#: ../src/mate-file-manager-share.c:1115
 msgid "Folder Sharing"
 msgstr "Chia sẻ Thư mục"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Sharing Options"
 msgstr "Tùy chọn chia sẻ"
 
-#: ../src/caja-share.c:1157
+#: ../src/mate-file-manager-share.c:1157
 msgid "Share this Folder"
 msgstr "Chia sẻ thư mục này"
 

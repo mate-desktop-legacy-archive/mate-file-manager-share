@@ -1,13 +1,13 @@
-# translation of caja-share.po.master.ml.po to
-# translation of caja-share.HEAD.ml.po to
+# translation of mate-file-manager-share.po.master.ml.po to
+# translation of mate-file-manager-share.HEAD.ml.po to
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share.po.master.ml\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share.po.master.ml\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-08-15 00:25+0000\n"
 "PO-Revision-Date: 2009-08-18 09:54+0530\n"
 "Last-Translator: \n"
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 msgstr "നിങ്ങളുടെ ഫോള്‍ഡര്‍ \"%s\" പങ്കിടുന്നതിനായി നോട്ടിലസിനു് ചില അനുമതികള്‍ ചേര്‍ക്കേണ്ടതുണ്ടു്"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -35,69 +35,69 @@ msgstr ""
 "ഫോള്‍ഡര്‍ \"%s\" പങ്കിടുന്നതിനായി അധികമായ താഴെ പറയുന്ന അനുമതികള്‍ ചേര്‍ക്കേണ്ടതുണ്ടു്:\n"
 "%s%s%sനിങ്ങള്‍ക്കു് നോട്ടിലസ് ഈ അനുമതികള്‍ സ്വയമായി ചേര്‍ക്കണമോ?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - മറ്റുള്ളവയ്ക്കു് വായിക്കുവാനുള്ള അനുമതി\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - മറ്റുള്ളവയ്ക്കു് എഴുതുവാനുള്ള അനുമതി\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - മറ്റുള്ളവയ്ക്കു് പ്രവര്‍ത്തിപ്പിക്കുവാനുള്ള അനുമതി\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "ആനുകൂല്യങ്ങള്‍ സ്വയം ചേര്‍ക്കുക"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "ഫോള്‍ഡര്‍ \"%s\"-നുള്ള ആനുകൂല്യങ്ങളില്‍ മാറ്റം വരുത്തുവാന്‍ സാധ്യമല്ല"
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "പങ്കിടുവാനുള്ളവയുടെ പേരു് വളരെ വലുതാണു്"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "പങ്കിടുന്നവ ശൂന്യമാകുവാന്‍ പാടില്ല"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "പങ്കിടുന്ന വിവരം ലഭ്യമാക്കുന്നതില്‍ പിശക്: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "ഇതേ പേരു് പങ്കിടുന്നവയ്ക്കു് നിലവിലുണ്ടു്"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "_പങ്കിടുവാനുള്ളവയില്‍ മാറ്റം വരുത്തുക"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "_പങ്കിടുവാനുള്ളവ ഉണ്ടാക്കുക"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "പങ്കിടുന്ന വിവരങ്ങള്‍ ലഭ്യമാക്കുന്നതില്‍ ഒരു പിശക്"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "പങ്കിടുവാനുള്ളവ"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 msgid "Folder Sharing"
 msgstr "ഫോള്‍ഡര്‍ പങ്കിടല്‍"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "പങ്കിടല്‍ ഉപാധികള്‍"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "ഈ ഫോള്‍ഡര്‍ പങ്കിടുക"
 

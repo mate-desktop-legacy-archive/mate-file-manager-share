@@ -1,6 +1,6 @@
 AC_PREREQ(2.57)
-AC_INIT([caja-share],[0.7.3])
-AC_CONFIG_SRCDIR([src/caja-share.c])
+AC_INIT([mate-file-manager-share],[0.7.3])
+AC_CONFIG_SRCDIR([src/mate-file-manager-share.c])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign 1.9 -Wall])
 
@@ -32,7 +32,7 @@ dnl Translations
 dnl ========================================================
 
 ALL_LINGUAS="ar as ast bn_IN ca ca@valencia cs da de el en_GB eo es et de dz eu fi fr gl gu he hu id it kn ko lt lv ml mr nb oc pa pl pt pt_BR ro ru sk sl sv ta te uk vi zh_CN zh_HK zh_TW"
-GETTEXT_PACKAGE=caja-share
+GETTEXT_PACKAGE=mate-file-manager-share
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext package name])
 AM_GLIB_GNU_GETTEXT

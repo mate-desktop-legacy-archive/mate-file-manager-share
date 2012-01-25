@@ -1,10 +1,10 @@
-# Lithuanian translation for caja-share.
-# Copyright (C) 2010 caja-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the caja-share package.
+# Lithuanian translation for mate-file-manager-share.
+# Copyright (C) 2010 mate-file-manager-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-file-manager-share package.
 # Aurimas Černius <aurisc4@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share master\n"
+"Project-Id-Version: mate-file-manager-share master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-04-02 01:56+0300\n"
 "PO-Revision-Date: 2010-04-02 01:56+0300\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
 "100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 msgstr "Caja turi pridėti leidimų aplankui „%s“ prieš jį viešinant"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -34,69 +34,69 @@ msgstr ""
 "Aplankui „%s“ reikia šių papildomų leidimų, kad viešinimas veiktų:\n"
 "%s%s%sAr norite, kad Caja automatiškai pridėtų šiuos leidimus aplankui?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - skaitymo leidimas kitiems\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - rašymo leidimas kitiems\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - vykdymo leidimas kitiems\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Automatiškai pridėti leidimus"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nepavyko automatiškai pakeisti aplanko „%s“ leidimų"
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Viešinamo aplanko pavadinimas per ilgas"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Viešinamo aplanko pavadinimas negali būti tuščias"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Klaida gaunant viešinamo aplanko duomenis: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "Yra kitas viešinamas aplankas tuo pačiu pavadinimu"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "Keisti viešinamą _aplanką"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "Sukurti viešinamą _aplanką"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "Įvyko klaida renkant viešinimo duomenis"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "Viešinti"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 msgid "Folder Sharing"
 msgstr "Aplanko viešinimas"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "Viešinimo nustatymai"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "Viešinti šį aplanką"
 

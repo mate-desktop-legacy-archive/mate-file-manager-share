@@ -5,7 +5,7 @@
          xmlns="http://usefulinc.com/ns/doap#">
 
   <!-- Project Info -->
-  <shortname>caja-share</shortname>
+  <shortname>mate-file-manager-share</shortname>
   <created>2006-01-09</created>
 
   <name xml:lang="en">Caja Share</name>
@@ -18,9 +18,9 @@
     file manager without requiring root access.
   </description>
 
-  <homepage rdf:resource="http://gentoo.ovibes.net/caja-share/" />
+  <homepage rdf:resource="http://gentoo.ovibes.net/mate-file-manager-share/" />
   <download-page rdf:resource="" />
-  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=caja-share" />
+  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=mate-file-manager-share" />
   <license rdf:resource="http://usefulinc.com/doap/licenses/gpl" />
 
   <!-- Current Releases -->
@@ -30,15 +30,15 @@
       <branch>master</branch>
       <created>2011-07-04</created>
       <revision>0.7.3</revision>
-      <file-release rdf:resource="http://ftp.gnome.org/pub/MATE/sources/caja-share/caja-share-0.7.4.tar.bz2" />
+      <file-release rdf:resource="http://ftp.gnome.org/pub/MATE/sources/mate-file-manager-share/mate-file-manager-share-0.7.4.tar.bz2" />
     </Version>
   </release>
 
   <!-- Version Control -->
   <repository>
     <GitRepository>
-      <browse rdf:resource="http://git.gnome.org/cgit/caja-share" />
-      <location rdf:resource="git://git.gnome.org/caja-share" />
+      <browse rdf:resource="http://git.gnome.org/cgit/mate-file-manager-share" />
+      <location rdf:resource="git://git.gnome.org/mate-file-manager-share" />
     </GitRepository>
   </repository>
 

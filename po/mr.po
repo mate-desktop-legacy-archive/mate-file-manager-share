@@ -1,12 +1,12 @@
-# translation of caja-share.HEAD.po to marathi
+# translation of mate-file-manager-share.HEAD.po to marathi
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-02-20 06:55+0000\n"
 "PO-Revision-Date: 2009-03-04 14:20+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
@@ -17,14 +17,14 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../src/caja-share.c:129
+#: ../src/mate-file-manager-share.c:129
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 msgstr "सहभागीय करण्याकरीता Caja ला फोल्डर \"%s\" अंतर्गत काहिक परवानगी समावेष करावे लागेल"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -36,65 +36,65 @@ msgstr ""
 ":\n"
 "%s%s%sCaja ने या परवानगी फोल्डर अंतर्गत स्वयं समावेष करावे का?"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - read permission by others\n"
 msgstr "  - इतरांकरीता वाचन परवानगी\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - write permission by others\n"
 msgstr "  - इतरांकरीता लेखन परवानगी\n"
 
-#: ../src/caja-share.c:143
+#: ../src/mate-file-manager-share.c:143
 msgid "  - execute permission by others\n"
 msgstr "  - इतरांकरीता कार्यान्वीत परवानगी\n"
 
-#: ../src/caja-share.c:147
+#: ../src/mate-file-manager-share.c:147
 msgid "Add the permissions automatically"
 msgstr "परवानगी स्वयं समावेष करा"
 
-#: ../src/caja-share.c:173
+#: ../src/mate-file-manager-share.c:173
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "फोल्डर \"%s\" ची परवानगी बदलू शकले नाही"
 
-#: ../src/caja-share.c:444
+#: ../src/mate-file-manager-share.c:444
 msgid "Share name is too long"
 msgstr "सहभागीय साठ्याचे नाव खूप लांब आहे"
 
-#: ../src/caja-share.c:478
+#: ../src/mate-file-manager-share.c:478
 msgid "The share name cannot be empty"
 msgstr "सहभागीय साठ्याचे नाव रिकामे असू शकत नाही"
 
-#: ../src/caja-share.c:491
+#: ../src/mate-file-manager-share.c:491
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "सहभागीय साठा माहिती प्राप्त करतेवेळी त्रुटी आढळली: %s"
 
-#: ../src/caja-share.c:501
+#: ../src/mate-file-manager-share.c:501
 msgid "Another share has the same name"
 msgstr "आणखी एका सहभागीय साठ्याचे नाव समान नुरूप आहे"
 
-#: ../src/caja-share.c:669
+#: ../src/mate-file-manager-share.c:669
 msgid "There was an error while getting the sharing information"
 msgstr "सहभागीय माहिती प्राप्त करतेवेळी त्रुटी आढळली"
 
-#: ../src/caja-share.c:769
+#: ../src/mate-file-manager-share.c:769
 msgid "Modify _Share"
 msgstr "सहभागीय साठा संपादीत करा (_S)"
 
-#: ../src/caja-share.c:771
+#: ../src/mate-file-manager-share.c:771
 msgid "Create _Share"
 msgstr "सहभागीय साठा बनवा (_S)"
 
-#: ../src/caja-share.c:1029
+#: ../src/mate-file-manager-share.c:1029
 msgid "Share"
 msgstr "सहभागीय साठा"
 
-#: ../src/caja-share.c:1129
+#: ../src/mate-file-manager-share.c:1129
 msgid "Sharing Options"
 msgstr "सहभाग पर्याय"
 
-#: ../src/caja-share.c:1130
+#: ../src/mate-file-manager-share.c:1130
 msgid "Share this Folder"
 msgstr "हा फोल्डर सहभागीय करा"
 

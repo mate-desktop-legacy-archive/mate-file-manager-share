@@ -1,13 +1,13 @@
-# translation of caja-share.master.kn.po to Kannada
-# Kannada translation of caja-share.
-# Copyright (C) 2009 caja-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the caja-share package.
+# translation of mate-file-manager-share.master.kn.po to Kannada
+# Kannada translation of mate-file-manager-share.
+# Copyright (C) 2009 mate-file-manager-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-file-manager-share package.
 #
 # Shankar Prasad <svenkate@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share.master.kn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share.master.kn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-08-09 23:38+0000\n"
 "PO-Revision-Date: 2009-10-29 01:21+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -27,7 +27,7 @@ msgstr ""
 "ನಿಮ್ಮ \"%s\" ಕಡತಕೋಶವನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ಸಲುವಾಗಿ ಅದಕ್ಕೆ ಕೆಲವು ಅನುಮತಿಗಳನ್ನು ಸೇರಿಸಲು "
 "Caja ಬಯಸುತ್ತದೆ"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -38,70 +38,70 @@ msgstr ""
 "ಹಂಚಿಕೆಯು ಕೆಲಸ ಮಾಡಲು \"%s\" ಕಡತಕೋಶಕ್ಕೆ ಈ ಕೆಳಗಿನ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ:\n"
 "%s%s%sCaja ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಈ ಅನುಮತಿಗಳನ್ನು ನೀಡಲು ನೀವು ಬಯಸುತ್ತೀರೆ?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - ಇತರರಿಗೆ ಓದುವ ಅನುಮತಿ\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - ಇತರರಿಗೆ ಬರೆಯುವ ಅನುಮತಿ\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - ಇತರರಿಗೆ ಕಾರ್ಯಗತಗೊಳಿಸುವ ಅನುಮತಿ\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "ಅನುಮತಿಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸೇರಿಸು"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "\"%s\" ಕಡತಕೋಶದ ಅನುಮತಿಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "ಹಂಚಿಕೆ ಹೆಸರು ಬಹಳ ಉದ್ದವಾಗಿದೆ"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "ಹಂಚಿಕೆ ಹೆಸರನ್ನು ಖಾಲಿ ಇರುವಂತಿಲ್ಲ"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "ಹಂಚಿಕೆ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "ಬೇರೊಂದು ಹಂಚಿಕೆಯು ಇದೇ ಹೆಸರನ್ನು ಹೊಂದಿದೆ"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "ಹಂಚಿಕೆಯನ್ನು ಮಾರ್ಪಡಿಸು(_S)"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "ಹಂಚಿಕೆಯನ್ನು ರಚಿಸು(_S)"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "ಹಂಚಿಕೆಯ ಮಾಹಿತಿಯನ್ನು ಪಡೆದುಕೊಳ್ಳುವಲ್ಲಿ ಒಂದು ದೋಷ ಉಂಟಾಗಿದೆ"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "ಹಂಚಿಕೆ"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 #| msgid "<big><b>Folder Sharing</b></big>"
 msgid "Folder Sharing"
 msgstr "ಕಡತಕೋಶ ಹಂಚಿಕೆ"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "ಹಂಚಿಕೆಯ ಆಯ್ಕೆಗಳು"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "ಈ ಕಡತಕೋಶವನ್ನು ಹಂಚಿಕೊ"
 

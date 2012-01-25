@@ -1,10 +1,10 @@
 # Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same licence as the caja-share package.
+# This file is distributed under the same licence as the mate-file-manager-share package.
 # David Lodge <dave@cirt.net>, 2007
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-09 19:01+0000\n"
 "PO-Revision-Date: 2007-05-16 08:43-0000\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../src/caja-share.c:129
+#: ../src/mate-file-manager-share.c:129
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -24,7 +24,7 @@ msgstr ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -37,65 +37,65 @@ msgstr ""
 "%s%s%sDo you want Caja to add these permissions to the folder "
 "automatically?"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - read permission by others\n"
 msgstr "  - read permission by others\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - write permission by others\n"
 msgstr "  - write permission by others\n"
 
-#: ../src/caja-share.c:143
+#: ../src/mate-file-manager-share.c:143
 msgid "  - execute permission by others\n"
 msgstr "  - execute permission by others\n"
 
-#: ../src/caja-share.c:147
+#: ../src/mate-file-manager-share.c:147
 msgid "Add the permissions automatically"
 msgstr "Add the permissions automatically"
 
-#: ../src/caja-share.c:173
+#: ../src/mate-file-manager-share.c:173
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Could not change the permissions of folder \"%s\""
 
-#: ../src/caja-share.c:444
+#: ../src/mate-file-manager-share.c:444
 msgid "Share name is too long"
 msgstr "Share name is too long"
 
-#: ../src/caja-share.c:478
+#: ../src/mate-file-manager-share.c:478
 msgid "The share name cannot be empty"
 msgstr "The share name cannot be empty"
 
-#: ../src/caja-share.c:491
+#: ../src/mate-file-manager-share.c:491
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Error while getting share information: %s"
 
-#: ../src/caja-share.c:501
+#: ../src/mate-file-manager-share.c:501
 msgid "Another share has the same name"
 msgstr "Another share has the same name"
 
-#: ../src/caja-share.c:669
+#: ../src/mate-file-manager-share.c:669
 msgid "There was an error while getting the sharing information"
 msgstr "There was an error while getting the sharing information"
 
-#: ../src/caja-share.c:769
+#: ../src/mate-file-manager-share.c:769
 msgid "Modify _Share"
 msgstr "Modify _Share"
 
-#: ../src/caja-share.c:771
+#: ../src/mate-file-manager-share.c:771
 msgid "Create _Share"
 msgstr "Create _Share"
 
-#: ../src/caja-share.c:1029
+#: ../src/mate-file-manager-share.c:1029
 msgid "Share"
 msgstr "Share"
 
-#: ../src/caja-share.c:1129
+#: ../src/mate-file-manager-share.c:1129
 msgid "Sharing Options"
 msgstr "Sharing Options"
 
-#: ../src/caja-share.c:1130
+#: ../src/mate-file-manager-share.c:1130
 msgid "Share this Folder"
 msgstr "Share this Folder"
 

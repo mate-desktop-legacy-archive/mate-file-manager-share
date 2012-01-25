@@ -5,8 +5,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-08-09 23:38+0000\n"
 "PO-Revision-Date: 2010-04-14 14:50+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "X-Poedit-Language: Indonesian\n"
 "X-Poedit-Country: INDONESIA\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid "Caja needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr "Caja perlu menambahkan beberapa perizinan ke folder Anda \"%s\" agar dapat berbagi"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -31,71 +31,71 @@ msgstr ""
 "Folder \"%s\" memerlukan perizinan ekstra berikut ini agar dapat berbagi:\n"
 "%s%s%sAnda ingin Caja menambahkan perizinan ini ke folder secara otomatis?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - izin membaca oleh orang lain\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - izin menulis oleh orang lain\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - izin eksekusi oleh orang lain\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Tambahkan perizinan secara otomatis"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Tidak dapat mengubah perizinan folder \"%s\""
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Nama bagi-pakai terlalu panjang"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Nama bagi-pakai tidak boleh kosong"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Kesalahan saat mendapatkan informasi berbagi: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "Bagi-pakai lain memiliki nama yang sama"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "Ubah _Bagi-pakai"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "Buat _Bagi-Pakai"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "Terdapat kesalahan saat mendapatkan informasi berbagi"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "Bagi-Pakai"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 msgid "Folder Sharing"
 msgstr "Pemakaian Folder Bersama"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "Opsi Bagi-Pakai"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "Pakai Bersama Folder ini"
 

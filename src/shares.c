@@ -766,7 +766,7 @@ shares_error_quark (void)
 	static GQuark quark;
 
 	if (quark == 0)
-		quark = g_quark_from_string ("caja-shares-error-quark"); /* not from_static_string since we are a module */
+		quark = g_quark_from_string ("mate-file-manager-shares-error-quark"); /* not from_static_string since we are a module */
 
 	return quark;
 }

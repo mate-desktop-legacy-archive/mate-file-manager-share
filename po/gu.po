@@ -1,12 +1,12 @@
-# translation of caja-share.master.po to Gujarati
+# translation of mate-file-manager-share.master.po to Gujarati
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sweta Kothari <swkothar@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share.master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-04-17 13:24+0000\n"
 "PO-Revision-Date: 2009-04-29 14:27+0530\n"
 "Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
@@ -17,14 +17,14 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../src/caja-share.c:129
+#: ../src/mate-file-manager-share.c:129
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 msgstr "Caja ને તેને વહેંચવા માટે ક્રમમાં તમારા ફોલ્ડર \"%s\" માટે અમુક પરવાનગીઓ ઉમેરવાની જરૂર છે"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -36,65 +36,65 @@ msgstr ""
 "%s%s%s શું તમે આપમેળે આ ફોલ્ડરમાં આ પરવાનગીઓને ઉમેરવા માટે Caja "
 "ની ઇચ્છા રાખો છો?"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - read permission by others\n"
 msgstr "  - બીજાઓ દ્દારા પરવાનગી વાંચો\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - write permission by others\n"
 msgstr "  - બીજાઓ દ્દારા પરવાનગી લખો\n"
 
-#: ../src/caja-share.c:143
+#: ../src/mate-file-manager-share.c:143
 msgid "  - execute permission by others\n"
 msgstr "  - બીજાઓ દ્દારા પરવાનગીને ચલાવો\n"
 
-#: ../src/caja-share.c:147
+#: ../src/mate-file-manager-share.c:147
 msgid "Add the permissions automatically"
 msgstr "આપમેળે પરવાનગીઓને ઉમેરો"
 
-#: ../src/caja-share.c:173
+#: ../src/mate-file-manager-share.c:173
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "ફોલ્ડર \"%s\" ની પરવાનગીઓને બદલી શકાઇ નહિં"
 
-#: ../src/caja-share.c:444
+#: ../src/mate-file-manager-share.c:444
 msgid "Share name is too long"
 msgstr "વહેંચવાનું નામ ઘણુ લાંબુ છે"
 
-#: ../src/caja-share.c:478
+#: ../src/mate-file-manager-share.c:478
 msgid "The share name cannot be empty"
 msgstr "વહેંચવાનું નામ ને ખાલી કરી શકાતુ નથી"
 
-#: ../src/caja-share.c:491
+#: ../src/mate-file-manager-share.c:491
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "જ્યારે વહેંચાણ જાણકારીને મેળવવા દરમ્યાન ભૂલ: %s"
 
-#: ../src/caja-share.c:501
+#: ../src/mate-file-manager-share.c:501
 msgid "Another share has the same name"
 msgstr "બીજા વહેંચાણ પાસે પણ એજ નામ છે"
 
-#: ../src/caja-share.c:669
+#: ../src/mate-file-manager-share.c:669
 msgid "There was an error while getting the sharing information"
 msgstr "જ્યારે વહેંચવાની જાણકારી ને મેળવી રહ્યા હોય ત્યારે ત્યાં ભૂલ હતી"
 
-#: ../src/caja-share.c:769
+#: ../src/mate-file-manager-share.c:769
 msgid "Modify _Share"
 msgstr "વહેંચાણ ને બદલો (_S)"
 
-#: ../src/caja-share.c:771
+#: ../src/mate-file-manager-share.c:771
 msgid "Create _Share"
 msgstr "વહેંચણીને બનાવો (_S)"
 
-#: ../src/caja-share.c:1029
+#: ../src/mate-file-manager-share.c:1029
 msgid "Share"
 msgstr "વહેંચણી"
 
-#: ../src/caja-share.c:1129
+#: ../src/mate-file-manager-share.c:1129
 msgid "Sharing Options"
 msgstr "વહેંચણીનાં વિકલ્પો"
 
-#: ../src/caja-share.c:1130
+#: ../src/mate-file-manager-share.c:1130
 msgid "Share this Folder"
 msgstr "આ ફોલ્ડરને વહેંચો"
 

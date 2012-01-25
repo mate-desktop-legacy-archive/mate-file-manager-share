@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-04-02 03:33+0100\n"
 "PO-Revision-Date: 2007-04-02 04:43+0530\n"
@@ -19,12 +19,12 @@ msgstr ""
 "X-Poedit-Country: BHUTAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid "Caja needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr " ནའུ་ཊི་ལཱསི་ལུ་ཁྱོད་ཀྱི་སྣོད་འཛིན་ལུ་ \"%s\" རུབ་སྤྱོད་འབད་ནི་ལུ་བརྡ་བཀོད་ནང་གནང་བ་ལ་ལོ་ཚུ་ཁ་སྐོང་འབད་དགོཔ་ཡོདཔ་ཨིན།"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -33,65 +33,65 @@ msgstr ""
 "སྣོད་འཛིན་འདི་ལུ་ \"%s\" ལབད་ནི་ལུ་རུབ་སྤྱོད་འབད་ནི་དོན་ལུ་གནང་བ་ཐེབས་ཚུ་དགོཔ་ཡོདཔ་ཨིན།\n"
 "%s%s%sཁྱོད་ཀྱིས་ནའུ་ཊི་ལཱསི་འདི་ལུ་གནང་བ་དེ་ཚུ་སྣོད་འཛིན་རང་བཞིན་གྱིས་ཁ་སྐོང་འབད་བཅུག་ནི་ཨིན་ན?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - གཞན་ཚུ་གིས་ལྷག་ནི་གནང་བ།\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - གཞན་ཚུ་གིས་གནང་བ་འབྲི་ནི།\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - གཞན་ཚུ་གིས་ལག་ལེན་འཐབ་ནི་གནང་བ\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "གནང་བ་ཚུ་རང་བཞིན་གྱིས་ཁ་སྐོང་འབད།"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "སྣོད་འཛིན་གྱི་གནང་བ་ཚུ་བསྒྱུར་བཅོས་འབད་མ་ཚུགས། \"%s\""
 
-#: ../src/caja-share.c:442
+#: ../src/mate-file-manager-share.c:442
 msgid "Share name is too long"
 msgstr "རུབ་སྤྱོད་མིག་འདི་གནམ་མེད་ས་མེད་རིངམོ།"
 
-#: ../src/caja-share.c:476
+#: ../src/mate-file-manager-share.c:476
 msgid "The share name cannot be empty"
 msgstr "རུབ་སྤྱོད་འབད་ནི་མིང་འདི་སྟོངམ་བཏོན་མི་བཏུབ།"
 
-#: ../src/caja-share.c:489
+#: ../src/mate-file-manager-share.c:489
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "རུབ་སྤྱོད་འབད་ནི་བརྡ་དོན་ལེན་པའི་སྐབས་འཛོལ་བ། %s"
 
-#: ../src/caja-share.c:499
+#: ../src/mate-file-manager-share.c:499
 msgid "Another share has the same name"
 msgstr "གཞན་རུབ་སྤྱོད་འབད་ནི་ལུ་ཡང་མིང་ཅོག་འཐདཔ་ཡོདཔ།"
 
-#: ../src/caja-share.c:645
+#: ../src/mate-file-manager-share.c:645
 msgid "There was an error while getting the sharing information"
 msgstr "རུབ་སྤྱོད་འབད་ནི་བརྡ་དོན་འདི་ལེན་པའི་སྐབས་འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ།"
 
-#: ../src/caja-share.c:737
+#: ../src/mate-file-manager-share.c:737
 msgid "Modify _Share"
 msgstr "རུབ་སྤྱོད་འབད་ནི་ལེགས་བཅོས་འབད།(_S)"
 
-#: ../src/caja-share.c:739
+#: ../src/mate-file-manager-share.c:739
 msgid "Create _Share"
 msgstr "རུབ་སྤྱོད་འབད་ནི་གསར་བསྐྲུན་འབད།(_S)"
 
-#: ../src/caja-share.c:993
+#: ../src/mate-file-manager-share.c:993
 msgid "Share"
 msgstr "རུབ་སྤྱོད་འབད་ནི།"
 
-#: ../src/caja-share.c:1093
+#: ../src/mate-file-manager-share.c:1093
 msgid "Sharing Options"
 msgstr "གདམ་ཁ་ཚུ་རུབ་སྤྱོད་འབད་དོ།"
 
-#: ../src/caja-share.c:1094
+#: ../src/mate-file-manager-share.c:1094
 msgid "Share this Folder"
 msgstr "སྣོད་འཛིན་འདི་རུབ་སྤྱོད་འབད།"
 

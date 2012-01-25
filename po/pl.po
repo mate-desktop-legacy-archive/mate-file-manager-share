@@ -1,4 +1,4 @@
-# Polish translation for caja-share package.
+# Polish translation for mate-file-manager-share package.
 # Copyright (C) 2001-2009 Free Software Foundation, Inc.
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Aviary.pl
@@ -6,13 +6,13 @@
 # pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
 # matepl@aviary.pl
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# This file is distributed under the same license as the caja-share package.
+# This file is distributed under the same license as the mate-file-manager-share package.
 # sebastien estienne <sebastien.estienne@gmail.com>, 2005.
 # Tomasz Dominikowski <tdominikowski@aviary.pl>, 2008, 2009
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share\n"
+"Project-Id-Version: mate-file-manager-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-07 21:51+0200\n"
 "PO-Revision-Date: 2009-09-07 21:52+0100\n"
@@ -25,12 +25,12 @@ msgstr ""
 "X-Poedit-Country: Poland\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid "Caja needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr "Program Caja musi nadać pewne uprawnienia na katalog \"%s\", aby można było go współdzielić"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -39,71 +39,71 @@ msgstr ""
 "Katalog \"%s\" wymaga następujących dodatkowych uprawnień, aby uruchomić współdzielenie:\n"
 "%s%s%sNadać te uprawnienia automatycznie?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - uprawnienia odczytu przez innych\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - uprawnienia zapisu przez innych\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - uprawnienia wykonania przez innych\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "Nadaj uprawnienia automatycznie"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nie można zmienić uprawnień katalogu \"%s\""
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "Nazwa udziału jest zbyt długa"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "Nazwa udziału nie może być pusta"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Błąd podczas uzyskiwania informacji o udziale: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "Inny udział ma już taką nazwę"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "_Zmodyfikuj udział"
 
-#: ../src/caja-share.c:555
-#: ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555
+#: ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "_Utwórz udział"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "Wystąpił błąd podczas pobierania informacji o współdzieleniu"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "Udostępnianie"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 msgid "Folder Sharing"
 msgstr "Współdzielenie katalogów"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "Opcje współdzielenia"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "Udostępnij ten katalog"
 

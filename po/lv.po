@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug."
-"cgi?product=caja-share&keywords=I18N+L10N&component=general\n"
+"cgi?product=mate-file-manager-share&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-07-26 07:05+0000\n"
 "PO-Revision-Date: 2011-09-29 13:35+0300\n"
 "Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: ../src/caja-share.c:123
+#: ../src/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
@@ -28,7 +28,7 @@ msgstr ""
 "Caja nepieciešams pievienot dažas atļaujas piekļūšanai jūsu mapei \"%s\", "
 "lai ar to dalīties"
 
-#: ../src/caja-share.c:131
+#: ../src/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -40,69 +40,69 @@ msgstr ""
 "%s%s%sVai vēlaties, lai Caja automātiski piešķir mapei šīs papildu "
 "tiesības?"
 
-#: ../src/caja-share.c:135
+#: ../src/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
 msgstr " - citu pieeja lasīšanai\n"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
 msgstr " - citu pieeja rakstīšanai\n"
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
 msgstr " - atļauja citiem palaist\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Automātiski pievienot atļaujas"
 
-#: ../src/caja-share.c:167
+#: ../src/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nebija iespējams mainīt mapes \"%s\" atļaujas"
 
-#: ../src/caja-share.c:446
+#: ../src/mate-file-manager-share.c:446
 msgid "Share name is too long"
 msgstr "Koplietotnes nosaukums pārāk garš"
 
-#: ../src/caja-share.c:480
+#: ../src/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
 msgstr "Koplietotnes vārds nevar būt tukšs"
 
-#: ../src/caja-share.c:493
+#: ../src/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Kļuda saņemot koplietotnes informāciju: %s"
 
-#: ../src/caja-share.c:503
+#: ../src/mate-file-manager-share.c:503
 msgid "Another share has the same name"
 msgstr "Citai koplietotnej jau ir tāds nosaukums"
 
-#: ../src/caja-share.c:550 ../src/caja-share.c:786
+#: ../src/mate-file-manager-share.c:550 ../src/mate-file-manager-share.c:786
 msgid "Modify _Share"
 msgstr "Pārveidot _koplietotni"
 
-#: ../src/caja-share.c:550 ../src/caja-share.c:788
+#: ../src/mate-file-manager-share.c:550 ../src/mate-file-manager-share.c:788
 msgid "Create _Share"
 msgstr "Izveidot _koplietotni"
 
-#: ../src/caja-share.c:678
+#: ../src/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Notikusi kļuda iegūstot informāciju par koplietotni"
 
-#: ../src/caja-share.c:1050
+#: ../src/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Koplietot"
 
-#: ../src/caja-share.c:1110
+#: ../src/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
 msgstr "Mapju koplietošana"
 
-#: ../src/caja-share.c:1151
+#: ../src/mate-file-manager-share.c:1151
 msgid "Sharing Options"
 msgstr "Koplietošanas iestatījumi"
 
-#: ../src/caja-share.c:1152
+#: ../src/mate-file-manager-share.c:1152
 msgid "Share this Folder"
 msgstr "Koplietot šo mapi"
 

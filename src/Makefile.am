@@ -10,11 +10,11 @@ libcaja_share_la_CFLAGS =				\
 	$(CAJA_CFLAGS)				\
 	$(GLIB_CFLAGS)
 
-caja_extension_LTLIBRARIES=libcaja-share.la
+caja_extension_LTLIBRARIES=libmate-file-manager-share.la
 
 libcaja_share_la_SOURCES =  \
-	caja-share.c        \
-	caja-share.h	\
+	mate-file-manager-share.c        \
+	mate-file-manager-share.h	\
 	shares.c		\
 	shares.h
 

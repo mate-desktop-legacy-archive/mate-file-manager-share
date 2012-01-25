@@ -1,4 +1,4 @@
-# Norwegian Bokmål translation of caja-share.
+# Norwegian Bokmål translation of mate-file-manager-share.
 # Copyright (C) 2000-2005 Free Software Foundation, Inc.
 # Kjartan Maraas <kmaraas@mate.org>, 2000-2008.
 # Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003.
@@ -6,7 +6,7 @@
 # Øivind Hoel <ohoel@cvs.mate.org>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share 2.23.x\n"
+"Project-Id-Version: mate-file-manager-share 2.23.x\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-10-07 18:51+0200\n"
 "PO-Revision-Date: 2008-10-07 18:55+0200\n"
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../src/caja-share.c:129
+#: ../src/mate-file-manager-share.c:129
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 msgstr ""
 
-#: ../src/caja-share.c:137
+#: ../src/mate-file-manager-share.c:137
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -33,68 +33,68 @@ msgid ""
 "automatically?"
 msgstr ""
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - read permission by others\n"
 msgstr ""
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - write permission by others\n"
 msgstr ""
 
-#: ../src/caja-share.c:143
+#: ../src/mate-file-manager-share.c:143
 msgid "  - execute permission by others\n"
 msgstr ""
 
-#: ../src/caja-share.c:147
+#: ../src/mate-file-manager-share.c:147
 #, fuzzy
 msgid "Add the permissions automatically"
 msgstr "Rettigheter for filen."
 
-#: ../src/caja-share.c:173
+#: ../src/mate-file-manager-share.c:173
 #, fuzzy, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Kunne ikke endre rettigheter for «%s»: %s"
 
-#: ../src/caja-share.c:444
+#: ../src/mate-file-manager-share.c:444
 msgid "Share name is too long"
 msgstr ""
 
-#: ../src/caja-share.c:478
+#: ../src/mate-file-manager-share.c:478
 #, fuzzy
 msgid "The share name cannot be empty"
 msgstr "Emblemet kan ikke legges til."
 
-#: ../src/caja-share.c:491
+#: ../src/mate-file-manager-share.c:491
 #, fuzzy, c-format
 msgid "Error while getting share information: %s"
 msgstr "Feil under oppretting av lenke til «%B»."
 
-#: ../src/caja-share.c:501
+#: ../src/mate-file-manager-share.c:501
 msgid "Another share has the same name"
 msgstr ""
 
-#: ../src/caja-share.c:669
+#: ../src/mate-file-manager-share.c:669
 #, fuzzy
 msgid "There was an error while getting the sharing information"
 msgstr "Det oppsto en feil under henting av informasjon om «%B»."
 
-#: ../src/caja-share.c:769
+#: ../src/mate-file-manager-share.c:769
 msgid "Modify _Share"
 msgstr "Endre _delt ressurs"
 
-#: ../src/caja-share.c:771
+#: ../src/mate-file-manager-share.c:771
 msgid "Create _Share"
 msgstr "Opprett _delt ressurs"
 
-#: ../src/caja-share.c:1029
+#: ../src/mate-file-manager-share.c:1029
 msgid "Share"
 msgstr "Delt ressurs"
 
-#: ../src/caja-share.c:1129
+#: ../src/mate-file-manager-share.c:1129
 msgid "Sharing Options"
 msgstr "Alternativer for deling"
 
-#: ../src/caja-share.c:1130
+#: ../src/mate-file-manager-share.c:1130
 msgid "Share this Folder"
 msgstr "Del denne mappen"
 

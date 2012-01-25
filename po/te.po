@@ -1,13 +1,13 @@
-# translation of caja-share.master.te.po to Telugu
-# Telugu translation of caja-share.
-# Copyright (C) 2009 caja-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the caja-share package.
+# translation of mate-file-manager-share.master.te.po to Telugu
+# Telugu translation of mate-file-manager-share.
+# Copyright (C) 2009 mate-file-manager-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-file-manager-share package.
 #
 # Krishna Babu K <kkrothap@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-share.master.te\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=caja-share&component=general\n"
+"Project-Id-Version: mate-file-manager-share.master.te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-file-manager-share&component=general\n"
 "POT-Creation-Date: 2009-08-09 23:38+0000\n"
 "PO-Revision-Date: 2009-10-27 19:11+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 
-#: ../src/caja-share.c:128
+#: ../src/mate-file-manager-share.c:128
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to "
 "share it"
 msgstr "మీ ఫోల్డర్‌ \"%s\"ను భాగస్వామ్య పరచుటకు నాటిలస్ కొన్ని అనుమతులను జతచేయవలసివుంది"
 
-#: ../src/caja-share.c:136
+#: ../src/mate-file-manager-share.c:136
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -37,70 +37,70 @@ msgstr ""
 "భాగస్వామ్య పరచుట పనిచేయుటకు ఫోల్డర్ \"%s\"కు ఈ క్రింది అదనపు అనుమతులు అవసరము:\n"
 "%s%s%sనాటిలస్ ఈ అనుమతులను స్వయంచాలకంగా ఫోల్డర్‌కు జతచేయాలని మీరు కోరుకొనుచున్నారా?"
 
-#: ../src/caja-share.c:140
+#: ../src/mate-file-manager-share.c:140
 msgid "  - read permission by others\n"
 msgstr "  - ఇతరుల ద్వారా చదువబడుటకు అనుమతి\n"
 
-#: ../src/caja-share.c:141
+#: ../src/mate-file-manager-share.c:141
 msgid "  - write permission by others\n"
 msgstr "  - ఇతరుల ద్వారా వ్రాయబడుటకు అనుమతి\n"
 
-#: ../src/caja-share.c:142
+#: ../src/mate-file-manager-share.c:142
 msgid "  - execute permission by others\n"
 msgstr "  - ఇతరుల ద్వారా నిర్వర్తించబడుటకు అనుమతి\n"
 
-#: ../src/caja-share.c:146
+#: ../src/mate-file-manager-share.c:146
 msgid "Add the permissions automatically"
 msgstr "అనుమతులను స్వయంచాలకంగా జతచేయుము"
 
-#: ../src/caja-share.c:172
+#: ../src/mate-file-manager-share.c:172
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "ఫోల్డర్ \"%s\"యొక్క అనుమతులను మార్చలేకపోయింది"
 
-#: ../src/caja-share.c:451
+#: ../src/mate-file-manager-share.c:451
 msgid "Share name is too long"
 msgstr "భాగస్వామ్య నామము మరీ పొడవైంది"
 
-#: ../src/caja-share.c:485
+#: ../src/mate-file-manager-share.c:485
 msgid "The share name cannot be empty"
 msgstr "భాగస్వామ్య నామము ఖాళీగా వుండకూడదు"
 
-#: ../src/caja-share.c:498
+#: ../src/mate-file-manager-share.c:498
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "భాగస్వామ్య సమాచారమును పొందుటలో దోషము: %s"
 
-#: ../src/caja-share.c:508
+#: ../src/mate-file-manager-share.c:508
 msgid "Another share has the same name"
 msgstr "ఇంకొక భాగస్వామ్యముకూడా అదే నామమును కలిగివుంది"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:790
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:790
 msgid "Modify _Share"
 msgstr "భాగస్వామ్యమును సవరించుము (_S)"
 
-#: ../src/caja-share.c:555 ../src/caja-share.c:792
+#: ../src/mate-file-manager-share.c:555 ../src/mate-file-manager-share.c:792
 msgid "Create _Share"
 msgstr "భాగస్వామ్యము సృష్టించుము (_S)"
 
-#: ../src/caja-share.c:683
+#: ../src/mate-file-manager-share.c:683
 msgid "There was an error while getting the sharing information"
 msgstr "భాగస్వామ్య సమాచారమును పొందుచున్నప్పుడు అక్కడ వొక దోషమువుంది"
 
-#: ../src/caja-share.c:1054
+#: ../src/mate-file-manager-share.c:1054
 msgid "Share"
 msgstr "భాగస్వామ్యము"
 
-#: ../src/caja-share.c:1114
+#: ../src/mate-file-manager-share.c:1114
 #| msgid "<big><b>Folder Sharing</b></big>"
 msgid "Folder Sharing"
 msgstr "ఫోల్డర్ భాగస్వామ్యము"
 
-#: ../src/caja-share.c:1155
+#: ../src/mate-file-manager-share.c:1155
 msgid "Sharing Options"
 msgstr "భాగస్వామ్య ఐచ్చికాలు"
 
-#: ../src/caja-share.c:1156
+#: ../src/mate-file-manager-share.c:1156
 msgid "Share this Folder"
 msgstr "ఈ ఫోల్డర్‌ను భాగస్వామ్య పరచుము"
 
