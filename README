@@ -1,1 +1,5 @@
-Install instructions are in INSTALL file.
+mate-file-manager-share allows you to quickly share a folder from the MATE Caja
+file manager without requiring root access. It uses Samba, so your folders
+can be accessed by any operating system.
+
+http://www.mate-desktop.org/
