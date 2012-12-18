@@ -1,5 +1,5 @@
 AC_PREREQ(2.57)
-AC_INIT([mate-file-manager-share],[0.7.3])
+AC_INIT([mate-file-manager-share],[1.5.0])
 AC_CONFIG_SRCDIR([src/mate-file-manager-share.c])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign 1.9 -Wall])
